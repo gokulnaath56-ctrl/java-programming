@@ -1,0 +1,26 @@
+class A {
+
+   
+    A(int a) {
+        System.out.println("The area of a square is: " + (a * a));
+    }
+
+    // Constructor for rectangle
+    A(int a, int b) {
+        System.out.println("The area of a rectangle is: " + (a * b));
+    }
+
+   
+    A(int a, int b, int c) {
+        System.out.println("The volume of a cuboid is: " + (a * b * c));
+    }
+}
+
+class B {
+    public static void main(String args[]) {
+
+        A ob = new A(10);
+        A ob1 = new A(10, 2);
+        A ob2 = new A(10, 2, 50);
+    }
+}
